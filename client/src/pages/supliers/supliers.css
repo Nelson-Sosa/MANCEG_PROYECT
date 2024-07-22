@@ -1,0 +1,117 @@
+.mainSupplierContainer {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+.mainSupplierContainer .LeftPanel {
+  width: 80%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.mainSupplierContainer .RightPanel {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 0;
+}
+
+.supliersContainer {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.supliersContainer h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.supliersContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.supliersContainer th,
+.supliersContainer td {
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.supliersContainer th {
+  background-color: #2c7bc9;
+  color: white;
+}
+
+.supliersContainer tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.supliersContainer tr:hover {
+  background-color: #ddd;
+}
+
+.btn {
+  background-color: #2c7bc9;
+  color: white;
+  border: none;
+  padding: 9px;
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.btn:hover {
+  background-color: #1b5a89;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Titulo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.table-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.table-buttons button {
+  margin: 0 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.table-buttons .edit-button {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.table-buttons .delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.table-buttons .delete-button:hover,
+.table-buttons .edit-button:hover {
+  opacity: 0.8;
+}

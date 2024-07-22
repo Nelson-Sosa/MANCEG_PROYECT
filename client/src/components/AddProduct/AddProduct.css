@@ -1,0 +1,104 @@
+.back :link{
+  display: flex;
+  flex-direction: row;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.back a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.addContainer {
+  display: flex;
+  width: 100%;
+}
+
+.addProductWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.addProductContainer {
+  width: 60%;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ced4d9;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+}
+
+.addProductTitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.addProductForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.formGroup {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.formGroup input {
+  padding: 5px;
+  border: 1px solid #ced4d9;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formGroup button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c7bc9;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.formGroup button:hover {
+  background-color: #1b5a89;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.rightPanel {
+  display: flex;
+  position: relative;
+  right: 0px;
+  flex-direction: column;
+  height: 100%;
+  width: 300px;
+}

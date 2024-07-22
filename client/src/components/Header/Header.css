@@ -1,0 +1,115 @@
+.headerContainer {
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 20px;
+  width: 100%;
+  border: 1px solid #ced4d9;
+}
+.btn {
+  background-color: #2c7bc9;
+  color: white;
+  border: none;
+  padding: 9px;
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.headerContainer .headerTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  width: 180px;
+}
+
+.headerTitle img {
+  display: flex;
+  filter: invert(1);
+  height: 80px;
+  width: 180px;
+}
+
+.headerContainer h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer h2 {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos en el cambio de monedas */
+.headerChangesMonetary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.titleChangesMonetary {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ced4d9;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.titleChangesMonetary p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2c7bc9;
+  margin: 0 10px;
+}
+
+.headerExchange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.purchase,
+.sale {
+  transition: opacity 0.5s ease-in-out;
+  background-color: #f5f5f5;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.purchase p,
+.sale p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.flag {
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Estilo modal */
+.buttons-modal {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

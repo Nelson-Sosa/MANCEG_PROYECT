@@ -1,0 +1,18 @@
+.success-message {
+    background-color: #48FA30;
+    width: 38%;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    margin: -20px;
+    
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+

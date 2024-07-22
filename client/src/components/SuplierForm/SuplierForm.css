@@ -1,0 +1,72 @@
+.supplier-form {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.suplierCont {
+  width: 42%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ced4d9;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+  box-shadow: 0 14px 28px rgba(26, 76, 240, 0.25), 0 10px 10px rgba(5, 92, 99, 0.22);
+}
+
+.supplier-form input{
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border: 1px solid #ced4d9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.supplier-form button {
+  padding: 10px 35px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.supplier-form button {
+  background-color: #19B0CB;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.1s;
+  margin: 10px 5px;
+}
+
+.supplier-form button:hover {
+  background-color: #0199B4;
+}
+
+.supplier-form button:active {
+  transform: scale(0.95);
+}
+
+#btnCancelar {
+  background-color: #F05555;
+  color: white;
+}
+
+#btnCancelar:hover {
+  background-color: #CA2222;
+}
+
+#btnCancelar:active {
+  transform: scale(0.95);
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+}

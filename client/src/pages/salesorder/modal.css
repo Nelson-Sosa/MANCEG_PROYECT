@@ -1,0 +1,74 @@
+.formModal {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70%;
+    height: 75%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ced0d3;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    width: 30%;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #2c7bc9;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #f0f0f0;
+    color: #696767;
+    margin-left: 10px;
+  }
+  .formModal {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  

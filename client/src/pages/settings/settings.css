@@ -1,0 +1,4 @@
+.settingsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}

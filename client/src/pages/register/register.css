@@ -1,0 +1,79 @@
+.registerDesing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #264eca;
+}
+
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+    background-color: #264eca;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 600px;
+    height: 250px;
+}
+
+.registerContainer form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContainer{
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.inputContainer input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.inputContainer input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.error {
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.buttonContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.register{
+    width: 50%;
+    padding: 10px;
+    background-color: #fff;
+    color: #264eca;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: #1c8aff;
+}
